@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://localhost:3000/#/kid_vinnie -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vince Cellini</title>
+	<link href="./Vince Cellini_files/css" rel="stylesheet">
+	<link rel="stylesheet" href="./Vince Cellini_files/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="./Vince Cellini_files/font-awesome.min.css">
+	<link rel="stylesheet" href="./Vince Cellini_files/animate.min.css">
+	
+<style type="text/css">.nav-btn {
+  text-decoration: none;
+  color: #333;
+  width: 25%; }
+
+.bubble {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+  color: #fff;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; }
+
+.nav-icon {
+  display: none; }
+
+.nav-text {
+  font-family: 'Mistral', sans-serif;
+  position: relative;
+  font-size: 25px; }
+
+.about-me {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 14px; }
+
+.title {
+  font-size: 45px;
+  color: #FB54EC;
+  text-shadow: 2px 2px 4px #31AAEE;
+  width: 80%;
+  margin: 0 auto 15px;
+  padding-top: 20px; }
+
+.sound:hover {
+  cursor: pointer; }
+
+.portfolio-list {
+  margin: 0 auto;
+  text-align: center; }
+
+.single-project {
+  padding: 20px 0; }
+
+.single-project img {
+  width: 350px;
+  display: block;
+  margin: 10px 0;
+  border-radius: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-position: 50%; }
+
+.single-project p {
+  line-height: 1.5;
+  letter-spacing: 1px;
+  padding: 0 8px;
+  font-size: 14px;
+  margin: 20px auto; }
+
+.project-link {
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+  width: 130px; }
+
+.project-link a {
+  text-decoration: none;
+  color: #fff; }
+
+.project-link .icon {
+  font-size: 20px;
+  display: block; }
+
+.project-link .project-link-text {
+  width: 100px; }
+
+.project-chev {
+  cursor: pointer;
+  color: #FB54EC;
+  text-shadow: 2px 2px 4px #31AAEE;
+  padding: 0 55px;
+  font-size: 30px; }
+
+.footer {
+  padding: 6px 0 25px;
+  margin-top: 25px;
+  color: #fff;
+  background: #82CCA2;
+  box-shadow: 0 0 10px rgba(51, 51, 51, 0.3); }
+  .footer h3 {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000; }
+  .footer a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 17px; }
+  .footer h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0; }
+
+.text {
+  width: 50%;
+  text-align: center; }
+  .text ul {
+    padding: 0px;
+    margin-top: 12px; }
+  .text li {
+    padding-bottom: 24px;
+    list-style: none; }
+
+.text a:hover {
+  color: #096631;
+  text-shadow: none;
+  transition: 0.3s ease-in-out all; }
+
+.social-links {
+  width: 50%;
+  text-align: center;
+  margin-top: 10px; }
+  .social-links i {
+    padding-top: 20px;
+    padding-left: 9px;
+    letter-spacing: 20px;
+    font-size: 30px; }
+
+.social-links a:hover {
+  color: #096631;
+  transition: 0.3s ease-in-out all; }
+
+.secrets {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.sparkle {
+  font-size: 20px;
+  padding-right: 10px; }
+
+.tooltip {
+  color: #fff;
+  outline: none;
+  cursor: help;
+  text-decoration: none;
+  position: relative; }
+
+.tooltip span {
+  margin-left: -999em;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out; }
+
+.tooltip:hover span {
+  font-family: "Pinopolis", sans-serif;
+  position: absolute;
+  padding: 12px;
+  background: #fff;
+  color: #096631;
+  border: 1px solid #096631;
+  border-radius: 2px;
+  left: -4em;
+  top: -8em;
+  font-size: 13px;
+  line-height: 1.2;
+  z-index: 99;
+  margin-left: 0;
+  width: 294px;
+  opacity: 1.0;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out; }
+
+.tooltip:hover em {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  padding: 0.2em 0 0.6em 0; }
+
+.secret-text {
+  text-shadow: none; }
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FB54EC, 0 0 70px #FB54EC, 0 0 80px #FB54EC, 0 0 100px #FB54EC, 0 0 150px #FB54EC; }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FB54EC, 0 0 35px #FB54EC, 0 0 40px #FB54EC, 0 0 50px #FB54EC, 0 0 75px #FB54EC; } }
+
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #31AAEE, 0 0 70px #31AAEE, 0 0 80px #31AAEE, 0 0 100px #31AAEE, 0 0 150px #31AAEE; }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #31AAEE, 0 0 35px #31AAEE, 0 0 40px #31AAEE, 0 0 50px #31AAEE, 0 0 75px #31AAEE; } }
+
+@-moz-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FB54EC, 0 0 70px #FB54EC, 0 0 80px #FB54EC, 0 0 100px #FB54EC, 0 0 150px #FB54EC; }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FB54EC, 0 0 35px #FB54EC, 0 0 40px #FB54EC, 0 0 50px #FB54EC, 0 0 75px #FB54EC; } }
+
+@-moz-keyframes neon5 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #31AAEE, 0 0 70px #31AAEE, 0 0 80px #31AAEE, 0 0 100px #31AAEE, 0 0 150px #31AAEE; }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #31AAEE, 0 0 35px #31AAEE, 0 0 40px #31AAEE, 0 0 50px #31AAEE, 0 0 75px #31AAEE; } }
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #31AAEE, 0 0 70px #31AAEE, 0 0 80px #31AAEE, 0 0 100px #31AAEE, 0 0 150px #31AAEE; }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #31AAEE, 0 0 35px #31AAEE, 0 0 40px #31AAEE, 0 0 50px #31AAEE, 0 0 75px #31AAEE; } }
+
+@font-face {
+  font-family: 'Pinopolis';
+  src: url(fonts/Pinopolis-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Mistral';
+  src: url("/fonts/MISTRAL.TTF") format("truetype"); }
+
+@font-face {
+  font-family: 'Outrun Future';
+  src: url("/fonts/Outrun-future.otf") format("truetype"); }
+
+@font-face {
+  font-family: 'Neo-Noir';
+  src: url("/fonts/SNNeoNoire-Regular.ttf") format("truetype"); }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff; }
+
+.app-window {
+  background: none;
+  height: 100%; }
+
+.window-body {
+  background: url("/images/gradient.jpeg");
+  background-size: cover;
+  box-shadow: 0 0 8px 8px #1E0624 inset; }
+
+.page-content {
+  flex: 1;
+  background-color: #222222;
+  background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0/15px 15px; }
+
+a:hover {
+  text-decoration: none; }
+
+.header-inital {
+  width: 100%;
+  height: 100vh !important;
+  text-align: center;
+  background-position: center;
+  background: url("/images/Rad_Wall_8_Nate_Wren.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s; }
+  .header-inital h1 {
+    font-size: 31px;
+    margin: auto;
+    padding-top: 40px;
+    font-family: 'Neo-Noir', sans-serif;
+    color: #fff;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate; }
+  .header-inital .navbar {
+    margin: 290px auto 0;
+    z-index: 1; }
+  .header-inital .nav-btn {
+    width: 100%; }
+  .header-inital .nav-text {
+    font-size: 30px; }
+  .header-inital .vinnie-face {
+    background-image: url("/images/KidVinnie.jpg");
+    background-size: cover;
+    box-shadow: 0 0 8px 8px #1E0624 inset;
+    width: 90%;
+    height: 65vh;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-position: 0 20%; }
+
+.body-initial {
+  display: none; }
+
+.header-after {
+  height: 20%;
+  padding: 10px 0;
+  text-align: center;
+  background: url("/images/Rad_Wall_8_Nate_Wren.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s; }
+  .header-after h1 {
+    font-size: 30px;
+    margin: auto;
+    padding: 0;
+    width: 100%; }
+  .header-after .navbar {
+    padding: 0 35px;
+    width: 100%; }
+
+h1:hover {
+  cursor: pointer; }
+
+h2,
+h3,
+h4 {
+  font-family: "Mistral", "sans serif"; }
+
+h2 {
+  font-size: 4rem; }
+
+.u_column-container {
+  font-size: 0; }
+
+.u_column {
+  display: inline-block;
+  font-size: medium;
+  vertical-align: top; }
+
+.body-left {
+  margin-top: 20px; }
+
+.vince {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.title {
+  width: 100%; }
+
+.oooo {
+  margin: 20px auto 0;
+  color: #fff; }
+
+.not-now {
+  display: none; }
+
+.pointer {
+  font-size: 30px;
+  color: #FB54EC;
+  text-shadow: 2px 2px 4px #31AAEE;
+  -webkit-animation: flash 6s infinite; }
+
+.component {
+  padding-top: 50px; }
+
+.github {
+  font-size: 20px;
+  font-family: "Neo-Noir", "sans-serif";
+  margin: 15px auto;
+  padding: 15px 0;
+  text-decoration: none;
+  color: #FB54EC;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate; }
+
+.contact-me {
+  font-size: 55px;
+  font-family: 'Mistral', sans-serif;
+  text-align: center;
+  color: #F95BEA;
+  padding-top: 35px;
+  text-shadow: 2px 2px 4px #31AAEE; }
+
+.contact-me:hover {
+  cursor: pointer; }
+
+@media screen and (min-width: 768px) {
+  .header-inital {
+    width: 100%;
+    height: 100vh !important;
+    text-align: center;
+    background-position: center;
+    background: url("/images/Rad_Wall_8_Nate_Wren.jpg");
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s; }
+    .header-inital h1 {
+      font-size: 75px;
+      margin: auto;
+      padding-top: 40px;
+      font-family: 'Neo-Noir', sans-serif;
+      color: #fff;
+      -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+      -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+      animation: neon1 1.5s ease-in-out infinite alternate; }
+    .header-inital .navbar {
+      margin: 400px auto 0;
+      z-index: 1; }
+    .header-inital .nav-btn {
+      width: 33%; }
+    .header-inital .nav-text {
+      font-size: 40px; }
+    .header-inital .vinnie-face {
+      background-image: url("/images/KidVinnie.jpg");
+      background-size: cover;
+      box-shadow: 0 0 8px 8px #1E0624 inset;
+      width: 90%;
+      height: 100vh;
+      margin: 0 auto;
+      border-radius: 50%;
+      background-position: 0 20%; }
+  .header-after h1 {
+    display: inline-block;
+    font-size: medium;
+    vertical-align: top;
+    font-size: 35px;
+    text-align: left;
+    padding-left: 30px;
+    width: 50%;
+    color: #fff;
+    font-family: 'Neo-Noir', sans-serif;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate; }
+  .header-after .navbar {
+    display: inline-block;
+    font-size: medium;
+    vertical-align: top;
+    text-align: right;
+    padding: 10px 0;
+    width: 50%; }
+  .page-content {
+    font-size: 0;
+    padding: 20px 10px;
+    margin-top: 0; }
+  .component,
+  .navbar {
+    display: inline-block;
+    font-size: medium;
+    vertical-align: top;
+    width: 50%; }
+  .bubble {
+    padding-top: 10px; }
+  .nav-icon {
+    display: block;
+    font-size: 30px; }
+  .component {
+    margin-top: 36px; }
+  .pac {
+    top: -86px;
+    left: 49px; }
+  .title {
+    font-size: 80px;
+    margin: 0 auto 25px; }
+  .project-window {
+    margin-top: -10px; }
+  #pac-animate {
+    top: 78px; }
+  .about-me {
+    font-size: 17px; }
+  .text {
+    text-align: left; }
+  .text ul {
+    padding-left: 30px; }
+  .single-project img {
+    width: 350px;
+    height: 200px; }
+  .project-chev {
+    padding: 0 100px; }
+  .github:hover {
+    color: #fff; }
+  .social-links {
+    text-align: right;
+    padding-right: 40px; }
+  .tooltip:hover span {
+    left: -12em;
+    width: 315px; } }
+</style></head>
+
+<body>
+	<div id="app-container"><div data-reactroot="" class="app-window"><div class="header-after u_column-container"><div class="row"><h1>Vince Cellini</h1><div class="navbar"><a class="nav-btn u_column" href="http://localhost:3000/#/kid_vinnie" target=""><div class="bubble"><span class="nav-text">Me</span></div></a><a class="nav-btn u_column" href="http://localhost:3000/#/portfolio" target=""><div class="bubble"><span class="nav-text">Portfolio</span></div></a><a class="nav-btn u_column" href="http://localhost:3000/Vince-Cellini-Resume.pdf" target="_blank"><div class="bubble"><span class="nav-text">Resume</span></div></a></div></div></div><div class="window-body"><div class="page-content container" style="height: 100vh;"><div id="about" class="about-me"><h2 class="title">A Little About Me</h2><p><!-- react-text: 20 -->Welcome! I’m Vince! I’m a Front End Developer based in <!-- /react-text --><i>the</i><!-- react-text: 22 --> Holy City.<!-- /react-text --></p><p>Back in January 2017, I hit the reset button on my life to pursue my dream of becoming a web developer.  Three months of serious coding cemented my developer foundation so I could start building interactive web applications, like this one!</p><p>I'm a simple guy really... </p><p><!-- react-text: 26 -->I love to <!-- /react-text --><span class="sound">Box</span><!-- react-text: 28 -->, geek out over Nintendo, enjoy a good sour beer, quote all of the <!-- /react-text --><span class="sound">movies.</span></p><p>And synthwave...</p></div><p class="contact-me">Reach Out!</p><div class="" style="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: rgba(0, 0, 0, 0.3); padding: 50px;"><div class="" style="background-color: rgb(255, 255, 255); border-radius: 5px; max-width: 500px; min-height: 300px; margin: 0px auto; padding: 30px;"><div class="footer"><footer class="footer u_column-container"><h3>Lets make a connection:</h3><div class="text u_column"><ul class="text-contact"><li><a href="mailto:vicellini@gmail.com">vicellini@gmail.com</a></li><li><a href="tel:8433238580">843-323-8580</a></li></ul></div><div class="social-links u_column"><a target="_blank" href="https://www.facebook.com/littleIVIac"><i class="fa fa-facebook u_column" aria-hidden="true"></i></a><a target="_blank" href="https://www.linkedin.com/in/vince-cellini-15421b13a/"><i class="fa fa-linkedin u_column" aria-hidden="true"></i></a><a target="_blank" href="https://github.com/vicellini"><i class="fa fa-github-alt u_column" aria-hidden="true"></i></a></div></footer><button style="
+    font-size: 10px;
+">Close</button></div></div></div></div></div></div></div>
+	<script src="./Vince Cellini_files/bundle.js"></script>
+
+
+
+</body></html>
